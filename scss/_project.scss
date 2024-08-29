@@ -1,0 +1,126 @@
+.project-main-cont{
+    width: 100%;
+    height: auto;
+
+    .proj-title{
+        margin-top: 150px;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 800;
+        color: #E1E1E1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 150px;
+    }
+
+    .cont1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+
+        .cont-left{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-right: 75px;
+
+            cursor: pointer;
+
+            img{
+                
+                transition: 0.3s ease;
+            }
+            img:hover{
+                transition: 0.3s ease;
+                transform: scale(1.05);
+            }
+        }
+        .cont-right{
+            
+            display: flex;
+            flex-direction: column;
+            margin-left: 75px;
+
+            .p-name{
+                padding: 39px 0 0;
+                font-family: Poppins;
+                font-size: 28px;
+                font-weight: bold;
+                color: rgba(255, 255, 255, 0.87);
+                text-decoration: underline;
+
+                margin-bottom: 12px;
+            }
+
+            .p-role{
+                
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: left;
+                color: rgba(255, 255, 255, 0.67);
+            }
+
+
+        }
+    }
+
+    .cont2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+
+        .cont-right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-left: 75px;
+            cursor: pointer;
+
+            img{
+                
+                transition: 0.3s ease;
+            }
+            img:hover{
+                transition: 0.3s ease;
+                transform: scale(1.05);
+            }
+        }
+
+        
+        .cont-left{
+            display: flex;
+            flex-direction: column;
+            margin-right: 75px;
+
+            .p-name{
+                padding: 39px 0 0;
+                font-family: Poppins;
+                font-size: 28px;
+                font-weight: bold;
+                color: rgba(255, 255, 255, 0.87);
+                text-decoration: underline;
+
+                margin-bottom: 12px;
+            }
+
+            .p-role{
+                
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: right;
+                color: rgba(255, 255, 255, 0.67);
+            }
+        }
+    }
+}
